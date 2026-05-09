@@ -1,0 +1,14 @@
+User-agent: *
+Disallow:
+
+Allow: /
+
+# Allow important resources
+Allow: /css/
+Allow: /js/
+Allow: /images/
+
+# Allow PHP pages
+Allow: /*.php$
+
+Sitemap: https://gurukullinstitute.in/sitemap.xml
